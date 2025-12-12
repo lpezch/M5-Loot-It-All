@@ -6,7 +6,7 @@
 [sub_resource type="CircleShape2D" id="CircleShape2D_nak5q"]
 radius = 26.019224
 
-[node name="HealthPack" type="Area2D"]
+[node name="HealthPack" type="Area2D" groups=["healing_item"]]
 position = Vector2(628, 297)
 script = ExtResource("1_ht84s")
 
