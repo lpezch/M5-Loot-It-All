@@ -20,6 +20,7 @@ corner_radius_bottom_left = 4
 font_size = 20
 
 [node name="Ship" type="Area2D"]
+collision_mask = 2
 script = ExtResource("4_p1sls")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
@@ -65,14 +66,14 @@ show_percentage = false
 
 [node name="GemCount" type="Label" parent="UI"]
 layout_mode = 0
-offset_left = 82.0
-offset_top = 65.0
-offset_right = 105.0
-offset_bottom = 93.0
+offset_left = 78.75
+offset_top = 49.75
+offset_right = 101.75
+offset_bottom = 77.75
 text = "x0"
 label_settings = SubResource("LabelSettings_h3paj")
 
 [node name="Sprite2D" type="Sprite2D" parent="UI"]
-position = Vector2(67, 65)
+position = Vector2(48.25, 60.75)
 scale = Vector2(0.75, 0.75)
 texture = ExtResource("5_h3paj")
